@@ -194,10 +194,6 @@ For formats where channels are support (the majority), any type of channel
 can be used, including files, sockets, and, if so equipped, alternate
 channel interfaces such as reading the data directly from zip files.
 .PP
-Tweezer gives Tcl programs the ability to examine and manipulate the
-state of Tcl objects, the core building blocks of Tcl in versions 8
-and above.
-.PP
 Once an image has been created or loaded, it can be manipulated via the
 named object, or if the object name is \fB#auto\fR, a unique command name
 is returned and should be grabbed into a variable and executed using a
